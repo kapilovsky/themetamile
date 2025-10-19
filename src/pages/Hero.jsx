@@ -3,7 +3,7 @@ import { GlassFilter, GlassButton, GlassCard } from "../components/GlassEffect";
 import TrustBadge from "../components/TrustBadge";
 import { Navbar } from "../components/Navbar";
 import BrandTicker from "../components/BrandTicker";
-import "../styles/hero.css";
+import "../styles/Hero.css";
 
 const Hero = () => {
   return (
