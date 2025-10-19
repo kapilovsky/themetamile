@@ -1,0 +1,32 @@
+.dot-pattern {
+  background-color: #e0f2f1;
+  opacity: 1;
+  background-image: radial-gradient(#80cbc4 0.85px, #e0f2f1 0.85px);
+  background-size: 17px 17px;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.hero-text {
+  background: linear-gradient(to bottom right, #004d40 20%, #e0f2f100 200%)
+      bottom right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, #004d40 20%, #e0f2f100 200%) bottom left /
+      50% 50% no-repeat,
+    linear-gradient(to top left, #004d40 20%, #e0f2f100 200%) top left / 50% 50%
+      no-repeat,
+    linear-gradient(to top right, #004d40 20%, #e0f2f100 200%) top right / 50%
+      50% no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
