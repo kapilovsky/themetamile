@@ -141,7 +141,7 @@ export const GlassNavbar = ({ children, className = "" }) => (
 
 // Glass Card Component (bonus - useful for content sections)
 export const GlassCard = ({ children, className = "" }) => (
-  <GlassEffect className={`rounded-3xl p-6 ${className}`}>
+  <GlassEffect className={`rounded-3xl ${className}`}>
     {children}
   </GlassEffect>
 );

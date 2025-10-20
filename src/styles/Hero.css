@@ -1,8 +1,8 @@
 .dot-pattern {
-  background-color: #e0f2f1;
+  /* background-color: #e0f2f1;
   opacity: 1;
   background-image: radial-gradient(#80cbc4 0.85px, #e0f2f1 0.85px);
-  background-size: 17px 17px;
+  background-size: 17px 17px; */
   mask-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 1) 0%,
@@ -12,9 +12,35 @@
   -webkit-mask-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 20%,
     rgba(0, 0, 0, 0) 100%
   );
+
+  background: radial-gradient(#80cbc4 15%, transparent 16%),
+    repeating-linear-gradient(
+      0deg,
+      transparent 6.5%,
+      #f1fffe 7%,
+      #f1fffe 9%,
+      transparent 10%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 49%,
+      #80cbc4 49%,
+      #80cbc4 51%,
+      transparent 51%
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 49%,
+      #80cbc4 49%,
+      #80cbc4 51%,
+      transparent 51%
+    );
+  background-size: 0.7em 0.7em;
+  background-color: #f1fffe;
+  opacity: 1;
 }
 
 .hero-text {
